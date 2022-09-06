@@ -1,0 +1,12 @@
+<h1>Faces</h1>
+
+
+  <div *ngFor="let employee of data$ | async">
+    <img [src]="employee.image" alt="image"> <br>
+ {{ employee.name }}
+
+  </div>
+
+
+
+
