@@ -12,3 +12,3939 @@
 {"commandName":"INJECT_EXTERNAL_DEPENDENCY","level":"info","message":"[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY","payload":{"entityFilePath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts","externalType":"HttpClient","genericFilePaths":[]}}
 {"level":"info","message":"[CLI] Called Command injectable/inject-external"}
 {"level":"info","message":"[API] Response ok: injectable/inject-external","result":{"filePath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"}}
+{"action":"entity/actions","context":{"environment":"development","userContext":{"correlationId":"zxSNkIuKEk","id":"xXJckTBFOWgH3UoR7u0CmkObu8W2"},"workspace":{"rootPath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry"}},"level":"info","message":"[API] Request for entity/actions","params":{"clickedPath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"}}
+{"funcParams":{"clickedPath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"},"level":"info","message":"[CLI] Calling Query entity/actions"}
+{"level":"info","message":"[CLI] Called Query entity/actions","result":[{"id":"INJECT","label":"Inject"}]}
+{"level":"info","message":"[API] Response ok: entity/actions","result":[{"id":"INJECT","label":"Inject"}]}
+{"action":"injectable/list","context":{"environment":"development","userContext":{"correlationId":"zxSNkIuKEk","id":"xXJckTBFOWgH3UoR7u0CmkObu8W2"},"workspace":{"rootPath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry"}},"level":"info","message":"[API] Request for injectable/list","params":{"entityFilePath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"}}
+{"funcParams":{"entityFilePath":"/home/aneta4595/Pulpit/lowgular-course/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"},"level":"info","message":"[CLI] Calling Query injectable/list"}
+{"level":"info","message":"[CLI] Called Query injectable/list","result":[{"dataType":"External","id":"httpClient","name":"HttpClient","relatedTypes":{}}]}
+{"level":"info","message":"[API] Response ok: injectable/list","result":[{"dataType":"External","id":"httpClient","name":"HttpClient","relatedTypes":{}}]}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 257
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "UBstMLN2mf",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 257
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "UBstMLN2mf",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 507
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "NpAo5IQehg",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 507
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "NpAo5IQehg",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "NpAo5IQehg",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "VInRHHYmQv",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "VInRHHYmQv",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employess-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "VInRHHYmQv",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employess-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "VInRHHYmQv",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "4Q1hbNQsZy",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "4Q1hbNQsZy",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employees-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "4Q1hbNQsZy",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employees-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "4Q1hbNQsZy",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "fsCyOEHHM9",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "fsCyOEHHM9",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "hnzUQlUnZs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "hnzUQlUnZs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employees-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "hnzUQlUnZs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employees-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "hnzUQlUnZs",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "MCQVFnOzzo",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "MCQVFnOzzo",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employees-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "MCQVFnOzzo",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employees-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "MCQVFnOzzo",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "SQLIXKzXR3",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "SQLIXKzXR3",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employees-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "SQLIXKzXR3",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employees-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "SQLIXKzXR3",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "pTQ1or4g6-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "pTQ1or4g6-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employees-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "pTQ1or4g6-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employees-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "pTQ1or4g6-",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/app.module.ts",
+		"position": 361
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "-6QyNDAliO",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/app.module.ts",
+		"position": 361
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[error] [API]: Error Entity not found for suffix: module: {
+	"loggerData": {
+		"action": "entity/actions",
+		"params": {
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/app.module.ts",
+			"position": 361
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "-6QyNDAliO",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Entity not found for suffix: module\n    at getEntityActions (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/main.js:8904:15)\n    at async callQueryCli (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/main.js:10144:20)\n    at async callHandler (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/main.js:2601:27)",
+	"level": "error",
+	"message": "[API]: Error Entity not found for suffix: module"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 568
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "6wMPKwfeDg",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 568
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "6wMPKwfeDg",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "QgXdYH9nQ2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "QgXdYH9nQ2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employee-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "QgXdYH9nQ2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employee-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "QgXdYH9nQ2",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "Q8TXg3AqVP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "Q8TXg3AqVP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "employee-faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "Q8TXg3AqVP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "employee-faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "Q8TXg3AqVP",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "vr9-H3JcsZ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "vr9-H3JcsZ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "HMpitPVE4u",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "HMpitPVE4u",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "HMpitPVE4u",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "HMpitPVE4u",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "fwtuFW3-sk",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "fwtuFW3-sk",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "fwtuFW3-sk",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "fwtuFW3-sk",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "y9ejAfIlwU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "y9ejAfIlwU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "y9ejAfIlwU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "y9ejAfIlwU",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "vKglNQTH-q",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "vKglNQTH-q",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "faces",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "vKglNQTH-q",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "faces",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "vKglNQTH-q",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "aK7nb5lFKx",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "aK7nb5lFKx",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "test",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "aK7nb5lFKx",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "test",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "aK7nb5lFKx",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "pebigJdnyY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "pebigJdnyY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "test",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "pebigJdnyY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "test",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "pebigJdnyY",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "O4vADAwM5Q",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "O4vADAwM5Q",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "test",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "O4vADAwM5Q",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "test",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "O4vADAwM5Q",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "52mVI0Z3nz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "52mVI0Z3nz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for service/create: {
+	"action": "service/create",
+	"params": {
+		"name": "ssss",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "dataService"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "52mVI0Z3nz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for service/create"
+}
+[info] [CLI] Calling Command service/create: {
+	"funcParams": {
+		"name": "ssss",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "dataService"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command service/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services",
+		"name": "ssss",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_SERVICE"
+}
+[info] [EventBus]: Broadcasting event SERVICE_CREATED: {
+	"type": "SERVICE_CREATED",
+	"payload": {
+		"createdFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/ssss.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SERVICE_CREATED"
+}
+[info] [CommandBus]: Dispatching command MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/ssss.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_CREATE_MODULE"
+}
+[info] [EventBus]: Broadcasted SERVICE_CREATED: {
+	"event": {
+		"createdFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/ssss.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SERVICE_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/ssss.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/ssss.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/ssss.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_CREATE_MODULE"
+}
+[info] [CommandBus]: Handled  CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services",
+		"name": "ssss",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_SERVICE"
+}
+[info] [CLI] Called Command service/create: {
+	"message": "[CLI] Called Command service/create",
+	"level": "info"
+}
+[info] [API] Response ok: service/create: {
+	"result": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/ssss.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: service/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "P1NKmk58ny",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "P1NKmk58ny",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "sss",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "P1NKmk58ny",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "sss",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "P1NKmk58ny",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "7BQFpykyx5",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "7BQFpykyx5",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "test",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "7BQFpykyx5",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "test",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "7BQFpykyx5",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "rTxWBd-TRj",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "rTxWBd-TRj",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular/create: {
+	"action": "angular/create",
+	"params": {
+		"name": "test",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "rTxWBd-TRj",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular/create"
+}
+[error] [API]: Error undefined: {
+	"loggerData": {
+		"action": "angular/create",
+		"params": {
+			"name": "test",
+			"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/model",
+			"entityId": "smartComponent"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "rTxWBd-TRj",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": "Could not find angular cli command handler for entityId smartComponent",
+	"level": "error",
+	"message": "[API]: Error undefined"
+}
