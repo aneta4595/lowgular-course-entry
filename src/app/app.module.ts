@@ -10,6 +10,7 @@ import { ProjectListComponentModule } from './ui/project-list/project-list.compo
 import { ProjectServiceModule } from './services/project.service-module';
 import { EmployeeService } from './services/employee.service';
 import { ProjectService } from './services/project.service';
+import { EmployeeFormComponentModule } from './ui/employee-form/employee-form.component-module';
 
 @NgModule({
   declarations: [AppComponent, EmployeeFacesComponent],
@@ -21,6 +22,7 @@ import { ProjectService } from './services/project.service';
     ProjectServiceModule,
     EmployeeListComponentModule,
     ProjectListComponentModule,
+    EmployeeFormComponentModule,
   ],
   providers: [EmployeeService, ProjectService],
   bootstrap: [AppComponent],

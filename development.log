@@ -7323,3 +7323,1776 @@
 	"level": "info",
 	"message": "[API] Response ok: data-structure/create"
 }
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "1avLq4N7y3",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "1avLq4N7y3",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "employeeForm",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "1avLq4N7y3",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "employeeForm",
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "employeeForm",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "employeeForm",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "rJXS-S3ecs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/form-properties/add: {
+	"action": "angular-component/form-properties/add",
+	"params": {
+		"propertyName": "employeeForm",
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "rJXS-S3ecs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/form-properties/add"
+}
+[info] [CLI] Calling Command angular-component/form-properties/add: {
+	"funcParams": {
+		"propertyName": "employeeForm",
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED: {
+	"type": "SMART_COMPONENT_FORM_ADDED",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED"
+}
+[info] [EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED: {
+	"event": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED"
+}
+[info] [CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [CLI] Called Command angular-component/form-properties/add: {
+	"message": "[CLI] Called Command angular-component/form-properties/add",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/form-properties/add: {
+	"result": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/form-properties/add"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 382
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "eESlPOCRdG",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 382
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "eESlPOCRdG",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 382
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "GW2mqzKNWZ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 382
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/form-properties/add: {
+	"action": "angular-component/form-properties/add",
+	"params": {
+		"propertyName": "employeeForm",
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "GW2mqzKNWZ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/form-properties/add"
+}
+[info] [CLI] Calling Command angular-component/form-properties/add: {
+	"funcParams": {
+		"propertyName": "employeeForm",
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED: {
+	"type": "SMART_COMPONENT_FORM_ADDED",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED"
+}
+[info] [EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED: {
+	"event": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED"
+}
+[info] [CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [CLI] Called Command angular-component/form-properties/add: {
+	"message": "[CLI] Called Command angular-component/form-properties/add",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/form-properties/add: {
+	"result": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "zwy-vAa7s-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/properties/list: {
+	"action": "angular-component/properties/list",
+	"params": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "zwy-vAa7s-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/properties/list"
+}
+[info] [API] Response ok: angular-component/properties/list: {
+	"result": [
+		{
+			"label": "employeeForm",
+			"templateType": "forms"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/properties/list"
+}
+[info] [CLI] Calling Query angular-component/properties/list: {
+	"funcParams": {
+		"entityFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/properties/list"
+}
+[info] [CLI] Called Query angular-component/properties/list: {
+	"result": [
+		{
+			"label": "employeeForm",
+			"templateType": "forms"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/properties/list"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "forms"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "zwy-vAa7s-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "forms"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for angular-component/templates/add-form: {
+	"action": "angular-component/templates/add-form",
+	"params": {
+		"componentHtmlFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0,
+		"propertyName": "employeeForm",
+		"formTemplate": "form"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "zwy-vAa7s-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/add-form"
+}
+[info] [CLI] Calling Command angular-component/templates/add-form: {
+	"funcParams": {
+		"componentHtmlFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0,
+		"propertyName": "employeeForm",
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/templates/add-form"
+}
+[info] [CommandBus]: Dispatching command AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "/home/aneta4595/Pulpit/lowgular-course-entry",
+		"componentTs": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"componentHtml": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"className": "EmployeeFormComponent",
+		"propertyName": "employeeForm",
+		"position": 0,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddFormToTemplateCommand"
+}
+[info] [CommandBus]: Handled  AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "/home/aneta4595/Pulpit/lowgular-course-entry",
+		"componentTs": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"componentHtml": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"className": "EmployeeFormComponent",
+		"propertyName": "employeeForm",
+		"position": 0,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddFormToTemplateCommand"
+}
+[info] [CLI] Called Command angular-component/templates/add-form: {
+	"message": "[CLI] Called Command angular-component/templates/add-form",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/templates/add-form: {
+	"result": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/add-form"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 15
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "WRFXKPVX-N",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 15
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/list: {
+	"action": "angular-component/list",
+	"params": {
+		"componentHtmlFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "WRFXKPVX-N",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/list"
+}
+[info] [CLI] Calling Query angular-component/list: {
+	"funcParams": {
+		"componentHtmlFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/list"
+}
+[info] [CLI] Called Query angular-component/list: {
+	"result": [
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/app.component.ts",
+			"selector": "app-root",
+			"name": "AppComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-faces/employee-faces.component.ts",
+			"selector": "app-employee-faces",
+			"name": "EmployeeFacesComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+			"selector": "app-employee-form",
+			"name": "EmployeeFormComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"selector": "employee-list",
+			"name": "EmployeeListComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"selector": "app-project-list",
+			"name": "ProjectListComponent"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/list"
+}
+[info] [API] Response ok: angular-component/list: {
+	"result": [
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/app.component.ts",
+			"selector": "app-root",
+			"name": "AppComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-faces/employee-faces.component.ts",
+			"selector": "app-employee-faces",
+			"name": "EmployeeFacesComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+			"selector": "app-employee-form",
+			"name": "EmployeeFormComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"selector": "employee-list",
+			"name": "EmployeeListComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"selector": "app-project-list",
+			"name": "ProjectListComponent"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/list"
+}
+[info] [API] Request for component-modules/module-list: {
+	"action": "component-modules/module-list",
+	"params": {
+		"componentHtmlPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "WRFXKPVX-N",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for component-modules/module-list"
+}
+[info] [CLI] Calling Query component-modules/module-list: {
+	"funcParams": {
+		"componentHtmlPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query component-modules/module-list"
+}
+[info] [CLI] Called Query component-modules/module-list: {
+	"result": {
+		"name": "EmployeeFormComponent",
+		"modules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query component-modules/module-list"
+}
+[info] [API] Response ok: component-modules/module-list: {
+	"result": {
+		"name": "EmployeeFormComponent",
+		"modules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: component-modules/module-list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "E-7_b5HvIr",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/list: {
+	"action": "angular-component/list",
+	"params": {
+		"componentHtmlFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "E-7_b5HvIr",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/list"
+}
+[info] [CLI] Calling Query angular-component/list: {
+	"funcParams": {
+		"componentHtmlFilePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/list"
+}
+[info] [CLI] Called Query angular-component/list: {
+	"result": [
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/app.component.ts",
+			"selector": "app-root",
+			"name": "AppComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-faces/employee-faces.component.ts",
+			"selector": "app-employee-faces",
+			"name": "EmployeeFacesComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+			"selector": "app-employee-form",
+			"name": "EmployeeFormComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"selector": "employee-list",
+			"name": "EmployeeListComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"selector": "app-project-list",
+			"name": "ProjectListComponent"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/list"
+}
+[info] [API] Response ok: angular-component/list: {
+	"result": [
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/app.component.ts",
+			"selector": "app-root",
+			"name": "AppComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-faces/employee-faces.component.ts",
+			"selector": "app-employee-faces",
+			"name": "EmployeeFacesComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+			"selector": "app-employee-form",
+			"name": "EmployeeFormComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"selector": "employee-list",
+			"name": "EmployeeListComponent"
+		},
+		{
+			"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"selector": "app-project-list",
+			"name": "ProjectListComponent"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/list"
+}
+[info] [API] Request for component-modules/module-list: {
+	"action": "component-modules/module-list",
+	"params": {
+		"componentHtmlPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "E-7_b5HvIr",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for component-modules/module-list"
+}
+[info] [CLI] Calling Query component-modules/module-list: {
+	"funcParams": {
+		"componentHtmlPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query component-modules/module-list"
+}
+[info] [CLI] Called Query component-modules/module-list: {
+	"result": {
+		"name": "EmployeeFormComponent",
+		"modules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query component-modules/module-list"
+}
+[info] [API] Response ok: component-modules/module-list: {
+	"result": {
+		"name": "EmployeeFormComponent",
+		"modules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: component-modules/module-list"
+}
+[info] [API] Request for component-modules/dependency-module-list: {
+	"action": "component-modules/dependency-module-list",
+	"params": {
+		"componentPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "E-7_b5HvIr",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for component-modules/dependency-module-list"
+}
+[info] [CLI] Calling Query component-modules/dependency-module-list: {
+	"funcParams": {
+		"componentPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query component-modules/dependency-module-list"
+}
+[info] [CLI] Called Query component-modules/dependency-module-list: {
+	"result": [
+		{
+			"name": "EmployeeFormComponent",
+			"modules": [
+				{
+					"name": "EmployeeFormComponentModule",
+					"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+				}
+			]
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query component-modules/dependency-module-list"
+}
+[info] [API] Response ok: component-modules/dependency-module-list: {
+	"result": [
+		{
+			"name": "EmployeeFormComponent",
+			"modules": [
+				{
+					"name": "EmployeeFormComponentModule",
+					"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+				}
+			]
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: component-modules/dependency-module-list"
+}
+[info] [API] Request for component-modules/import-component: {
+	"action": "component-modules/import-component",
+	"params": {
+		"modulePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts",
+		"moduleToImportPaths": [
+			"/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+		]
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "E-7_b5HvIr",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for component-modules/import-component"
+}
+[error] [API]: Error Attempted to get information from a node that was removed or forgotten.
+
+Node text: @NgModule({
+  imports: [CommonModule, ReactiveFormsModule],
+  declarations: [EmployeeFormComponent],...: {
+	"loggerData": {
+		"action": "component-modules/import-component",
+		"params": {
+			"modulePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts",
+			"moduleToImportPaths": [
+				"/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			]
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+				"correlationId": "E-7_b5HvIr",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Attempted to get information from a node that was removed or forgotten.\n\nNode text: @NgModule({\n  imports: [CommonModule, ReactiveFormsModule],\n  declarations: [EmployeeFormComponent],...\n    at ClassDeclaration.get compilerNode [as compilerNode] (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:2969:19)\n    at ClassDeclaration.getNameNode (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:9427:63)\n    at ClassDeclaration.getName (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/node_modules/ts-morph/dist/ts-morph.js:9434:37)\n    at importComponentCommandHandler (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/main.js:6146:127)\n    at async dispatchCommand (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/main.js:10463:26)\n    at async callCommandCli (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/main.js:10509:20)\n    at async callHandler (/home/aneta4595/.local/share/JetBrains/WebStorm2022.2/LowgularJPlugin/cli/main.js:2590:27)",
+	"level": "error",
+	"message": "[API]: Error Attempted to get information from a node that was removed or forgotten.\n\nNode text: @NgModule({\n  imports: [CommonModule, ReactiveFormsModule],\n  declarations: [EmployeeFormComponent],..."
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 397
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "37q3ye0cZI",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 397
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/form-properties/add: {
+	"action": "angular-component/form-properties/add",
+	"params": {
+		"propertyName": "employeeForm",
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "/home/aneta4595/Pulpit/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "xXJckTBFOWgH3UoR7u0CmkObu8W2",
+			"correlationId": "37q3ye0cZI",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/form-properties/add"
+}
+[info] [CLI] Calling Command angular-component/form-properties/add: {
+	"funcParams": {
+		"propertyName": "employeeForm",
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED: {
+	"type": "SMART_COMPONENT_FORM_ADDED",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED"
+}
+[info] [EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED: {
+	"event": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED"
+}
+[info] [CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:text": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [CLI] Called Command angular-component/form-properties/add: {
+	"message": "[CLI] Called Command angular-component/form-properties/add",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/form-properties/add: {
+	"result": {
+		"filePath": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "/home/aneta4595/Pulpit/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM"
+}
