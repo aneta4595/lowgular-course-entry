@@ -38,5 +38,8 @@ export class EmployeeFormComponent {
     this._employeeService
       .create({ name: form.name, age: form.age, salary: form.salary })
       .subscribe();
+    return window.alert(
+      'Name:' + form.name + ', Age:' + form.age + ', Salary:' + form.salary
+    );
   }
 }
