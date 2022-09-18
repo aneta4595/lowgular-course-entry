@@ -1,0 +1,18 @@
+
+<h1>EMPLOYEE LIST</h1>
+
+<table>
+<th>Id</th> <th>Name</th> <th>Age</th> <th>Salary</th> <th>Remove employee</th>
+
+<tr *ngFor="let employee of data$ | async">
+  <th>{{employee.id}}</th> <td>{{employee.name}}</td>  <td>{{employee.age}}</td> <td>{{employee.salary}}</td>
+  <td><button (click)="remove(employee.id)">Remove me</button></td>
+
+</tr>
+</table>
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+
+
+}
+h1 {
+  font-family: FreeMono;
+  text-decoration: underline;
+ text-shadow: 1px 1px 2px grey;
+  font-size: 45px;
+
+}
+table {
+  tr:nth-child(even) {background-color: lightgrey}
+}
+
+ tr td {
+  border: 1px solid grey;
+  line-height: 30px;
+  width: 150px;
+   text-align: center;
+
+    }
+th {
+  border: 1px solid grey;
+  background-color: navajowhite;
+
+}
+input {
+  border-radius: 8px;
+  display: grid;
+
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 12px 15px 12px 10px;
+}
+input[type=number] {
+  padding: 12px 15px 12px 10px;
+}
+input[type=submit] {
+  padding: 12px 15px 12px 10px;
+}
+
+
+
+

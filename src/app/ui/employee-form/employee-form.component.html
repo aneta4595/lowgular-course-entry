@@ -1,0 +1,13 @@
+<h1>ADD NEW EMPLOYEE</h1>
+
+<form [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
+  Name: <input type="text" formControlName="name" placeholder="e.g. John"> <br>
+  Surname: <input type="text" formControlName="surname" placeholder="e.g. Green"><br>
+  Age: <input type="number" formControlName="age" placeholder="min. 18 "><br>
+  Phone Number: <input type="text" formControlName="phone_number" placeholder="XXX-XXX-XXX"><br>
+  <input type="submit" value="Add employee">
+</form>
+
+
+
+
