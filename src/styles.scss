@@ -1,9 +1,14 @@
+
 body {
   background-image: url("background.jpg");
   background-size: cover;
-
+  height: 100%;
+  padding: 0%;
+  margin: 0 auto;
 
 }
+
+
 h1 {
 
   font-size: 45px;
@@ -12,14 +17,14 @@ h1 {
 }
 
 
- tr td {
+tr td {
   border: 1px solid;
   line-height: 30px;
   width: 150px;
-   text-align: center;
+  text-align: center;
 
 
-    }
+}
 th {
   border: 1px solid grey;
   background-color: #2f62ff;
@@ -47,6 +52,25 @@ input[type=number] {
 input[type=submit] {
   padding: 12px 15px 12px 10px;
 }
+
+.navbar-brand
+{
+  position: relative;
+  background: url(/assets/logo2.png);
+  width: 100px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.navbar-nav > li {
+  padding-right: 30px;
+}
+
+
+
+
 
 
 

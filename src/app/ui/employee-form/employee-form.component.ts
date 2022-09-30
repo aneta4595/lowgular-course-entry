@@ -46,12 +46,6 @@ export class EmployeeFormComponent {
         phone_number: form.phone_number,
       })
       .subscribe();
-    alert(
-      'New employee: ' +
-        form.name +
-        ' ' +
-        form.surname +
-        ' was successfully added!'
-    );
+    alert('New employee was successfully added!');
   }
 }
