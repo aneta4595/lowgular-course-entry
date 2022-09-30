@@ -1,11 +1,13 @@
-<h1>ADD NEW EMPLOYEE</h1>
+<h1 class="fw-lighter">ADD NEW EMPLOYEE</h1> <br>
 
-<form [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
-  Name: <input type="text" formControlName="name" placeholder="e.g. John"> <br>
-  Surname: <input type="text" formControlName="surname" placeholder="e.g. Green"><br>
-  Age: <input type="number" formControlName="age" placeholder="min. 18 "><br>
-  Phone Number: <input type="text" formControlName="phone_number" placeholder="XXX-XXX-XXX"><br>
-  <input type="submit" value="Add employee">
+<form class="row g-3 w-25" [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
+  <input type="text" class="form-control" placeholder="First name" aria-label="First Name"> <br>
+  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"><br>
+  <input type="number" class="form-control" placeholder="Age" aria-label="Age"><br>
+  <input type="text" class="form-control" placeholder="Phone number" aria-label="Phone number"><br>
+  <input type="submit" class="btn btn-primary w-50" value="Add employee">
+
+
 </form>
 
 

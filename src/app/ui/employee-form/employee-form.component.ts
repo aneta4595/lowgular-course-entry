@@ -46,7 +46,7 @@ export class EmployeeFormComponent {
         phone_number: form.phone_number,
       })
       .subscribe();
-    return window.alert(
+    alert(
       'New employee: ' +
         form.name +
         ' ' +
