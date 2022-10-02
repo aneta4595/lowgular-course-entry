@@ -43,4 +43,23 @@ export class EmployeeService {
       .post('https://dummy.restapiexample.com/api/v1/create', employee)
       .pipe(map((_) => void 0));
   }
+
+  getOne(id: string): Observable<PersonModel> {
+    return this._httpClient
+      .get<ApiResponse<EmployeeResponse>>(
+        'https://dummy.restapiexample.com/api/v1/employee/' + id
+      )
+      .pipe(
+        map(
+          (response): PersonModel => ({
+            id: response.data.id,
+            name: response.data.employee_name,
+            age: response.data.employee_age,
+            email: '',
+            salary: response.data.employee_salary,
+            image: response.data.profile_image,
+          })
+        )
+      );
+  }
 }

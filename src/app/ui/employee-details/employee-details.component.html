@@ -1,4 +1,9 @@
-<h1>Employee Details</h1>
+<h1 class="fw-lighter text-center">Employee Details</h1> <br>
+<div class="text-center"><img src='https://svgshare.com/i/4V0.svg' width="100px" height="100px"></div><br>
 
-Id: {{ (params$ | async)?.id}} <br>
-Name: {{ (params$ | async)?.name}}
+<p>
+  <b>Name:</b>{{ (details$ | async)?.name}} <br>
+  <b>Age:</b>{{ (details$ | async)?.age}} <br>
+  <b>Salary:</b>{{(details$ | async)?.salary}}
+</p>
+
